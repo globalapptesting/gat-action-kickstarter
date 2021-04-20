@@ -4,6 +4,7 @@ This repository contains complete setup to launch your first tests using [Global
 
 Test it yourself:
 - fork this repo
+- go to the "Actions" tab in your fork and click the green button
 - sign up for your API KEY [here](https://go.globalapptesting.com/speak-to-us)
 - set your API key as a `GAT_API_KEY` secret in your repo.
 - generate new access token. See [official github guide](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token). "repo" permissions are enough.
