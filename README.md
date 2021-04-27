@@ -6,7 +6,7 @@ Test it yourself:
 - fork this repo
 - go to the "Actions" tab in your fork and click the green button
 - enable "Issues" in your repo settings
-- sign up for your API KEY [here](https://go.globalapptesting.com/speak-to-us)
+- sign up for your API KEY [here](https://go.globalapptesting.com/compare?hs_preview=rCyvmukc-45752713128)
 - set your API key as a `GAT_API_KEY` secret in your repo.
 - generate new access token. See [official github guide](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token). "repo" permissions are enough.
 - set your access token as a `GAT_GH_ACCESS_TOKEN` secret in your repo.
