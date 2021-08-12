@@ -11,4 +11,4 @@ Test it yourself:
 - generate new access token. See [official github guide](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token). "repo" permissions are enough.
 - set your access token as a `GAT_GH_ACCESS_TOKEN` secret in your repo.
 
-You should also change the description in `.gat.json` to include your webpage URL. Otherwise our testers will be checking [our webpage](https://www.globalapptesting.com).
+You should also change the `application_url` in the workflow definition(`.github/workflows/main.yml`) to include your webpage URL and change the company description in the `description` field in `.gat.json`. Otherwise our testers will be checking [our webpage](https://www.globalapptesting.com).
