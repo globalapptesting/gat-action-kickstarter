@@ -18,3 +18,4 @@ jobs:
           access_token: ${{ secrets.GAT_GH_ACCESS_TOKEN }}
           application_url: https://globalapptesting.com
           wait_for_finished_testing: true
+          dry_run: false
