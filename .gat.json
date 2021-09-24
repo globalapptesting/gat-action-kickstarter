@@ -2,49 +2,41 @@
   "description": "GlobalAppTesting is a best-in-class, remote on-demand QA crowdtesting solution.",
   "test_cases":[
     {
-      "name":"Load GlobalAppTesting page",
+      "name":"Install/Access the app",
       "steps":[
         {
-          "instruction":"Load https://globalapptesting.com",
-          "expected_result":"Page loads under 1s"
+          "instruction":"Can you install the app on your device/browser?",
+          "expected_result":"App should be installable on Android 9.0 and higher."
         }
       ]
     },
     {
-      "name":"GlobalAppTesting <=> Slack integration",
+      "name":"Register/Login to the app",
       "steps":[
         {
-          "instruction":"Look for the slack button",
-          "expected_result":"Slack button should be visible next to Speak to us button"
+          "instruction":"Can you register for a free account?",
+          "expected_result":"You should be able to register for a free account."
         },
         {
-          "instruction":"Click the slack button",
-          "expected_result":"Prompt to install GAT slack application is displayed"
-        },
-        {
-          "instruction":"Integrate with any slack channel",
-          "expected_result":"You should see our welcome message on the slack"
+          "instruction":"Can you log in with your newly created account?",
+          "expected_result":"You should be able to login with your newly created account."
         }
       ]
     },
     {
-      "name":"Mobile registration form test",
+      "name":"Navigate to different pages/views",
       "steps":[
         {
-          "instruction":"Go to the GlobalAppTesting page and click Speak to us button",
-          "expected_result":"You should be redirected to the registration form"
+          "instruction":"Go to the Profile tab",
+          "expected_result":"Profile form should be displayed"
         },
         {
-          "instruction":"Click on the First Name field",
-          "expected_result":"View scrolls to Company Email Address field and keyboard opens below it"
+          "instruction":"Go to the Pricing tab",
+          "expected_result":"Pricing tiers should display with Free tier marked as current one"
         },
         {
-          "instruction":"Click on the Company Email Address field",
-          "expected_result":"View scrolls to Job Title field and keyboard opens below it"
-        },
-        {
-          "instruction":"Click on the Job Title field",
-          "expected_result":"View scrolls to Speak To Our Team button and keyboard opens below it"
+          "instruction":"Go to the Support tab",
+          "expected_result":"Support form should be displayed"
         }
       ]
     }
